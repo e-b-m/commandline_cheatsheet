@@ -12,7 +12,7 @@
 ```~``` (Tilde) - This is your home directory
 
 
-```.```(Single period) Curent directory 
+```.```(Single period) Current directory 
 
 
 ```..``` (Double period) Parent directory 
@@ -59,13 +59,21 @@
 ```Ctrl + L``` - Clear the screen. 
 
 
-
 # Git Command-Line Functions 
 
+```Git init <directory> ``` - Creates an empty Git repository in specified directory. 
+
+```Git status``` - Git status List which files are staged, unstaged, and untracked.
 
 
+```Git add . ``` -  Adds a change in the working directory to the staging area. 
 
 
+```Git log``` - Displays the entire commit history using the default format. 
+
+```Git commit -m"INFO ON CHANGES"``` - Git commit captures a look at the project's currently staged changes. The '-m' symbolises message which should include some information on the changes being committed within the double quotation marks.
+
+```Git push``` - The git push command is used to upload content to a remote repository.
 
 
 
